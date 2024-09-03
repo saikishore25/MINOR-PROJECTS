@@ -1,0 +1,77 @@
+.testimonial{
+
+    height: 60vh;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+.testimonials{
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 60%;
+    position: relative;
+    /* overflow: hidden; */
+
+}
+
+
+.prev-btn{
+
+    top: 50%;
+    left:20%;
+}
+
+.next-btn{
+
+    top: 50%;
+    right:20%;
+}
+
+.prev-btn, .next-btn{
+
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+    background-color: #212EA0;
+    position: absolute;
+
+}
+
+.user-info img{
+
+    height: 30px;
+    width: 30px;
+
+}
+
+.slider-panel{
+
+    display: flex;
+    flex-direction: row; 
+    /* width: 70%; */
+    /* overflow: hidden; */
+    gap: 20px;
+    
+    
+}
+
+.slides{
+
+    background-color: white;
+    width: 700px;
+    /* overflow-x: hidden; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    
+
+
+}

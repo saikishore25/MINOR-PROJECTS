@@ -1,0 +1,28 @@
+.campus{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+
+.gallery{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+
+}
+
+.gallery img{
+
+    height: 300px;
+    width: 250px;
+    border-radius: 0px;
+
+}
+

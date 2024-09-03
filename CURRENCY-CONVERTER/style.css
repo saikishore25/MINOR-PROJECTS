@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+
+*{
+
+    /* border: 0px; */
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Teko", sans-serif;
+
+}
+
+body{
+
+    min-height: 100vh;
+    display: flex;
+    /* border: 2px solid red;    */
+    align-items: center;
+    justify-content: center;
+    background-color: #0a146e
+}
+
+h1{
+
+    font-weight: bolder;
+}
+.currency-container{
+
+    background-color: white;
+    /* border: 3px solid black; */
+    border-radius: 10px;
+    padding: 2rem;
+    min-height: 50vh;
+    min-width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    /* justify-content: center; */
+
+}
+
+.form-container{
+
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+.amount-entered-container{
+
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+
+}
+
+.amount-entered-container input, .amount-from-currency-input, .amount-to-currency-input{
+
+    border-radius: 0.5rem;
+    border: 2px solid grey;
+    outline: 0px;
+    padding: 0.5rem;
+    width: 10vw;
+
+}
+
+.amount-from{
+
+    display: flex;
+    flex-direction: column;
+    /* gap: 1.5rem; */
+    
+}
+
+
+.image-container{
+
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+
+}
+
+
+.amount-converter-container{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.submit-button{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.submit-button button{
+
+    width: 5vw;
+    padding: 0.3rem;
+    border-radius: 10px;
+    outline: 0px;
+    border: 2px solid grey;
+    cursor: pointer;   
+    margin-top:2rem; 
+}

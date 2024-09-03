@@ -1,0 +1,27 @@
+/* Tailwind CSS classes should be sufficient, but here are some custom styles */
+.product-carousal {
+    position: relative;
+}
+
+.carousal {
+    overflow: hidden; /* Hide scrollbars */
+    white-space: nowrap;
+}
+
+.card-container {
+    display: inline-block; /* Inline display for cards */
+    width: 200px; /* Adjust as needed */
+    margin-right: 16px; /* Space between cards */
+}
+
+.pre-btn, .next-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
